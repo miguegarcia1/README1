@@ -23,7 +23,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/batman" />
+        app:srcCompat="@drawable/batman"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -97,8 +98,8 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="406dp"
-        android:layout_height="118dp"
+        android:layout_width="378dp"
+        android:layout_height="104dp"
         android:layout_marginEnd="4dp"
         android:text="Batman es la identidad secreta de Bruce Wayne, un empresario multimillonario, galán y filántropo. Presenció el asesinato de sus padres cuando era niño lo marcó profundamente y lo llevó a entrenarse en la perfección física e intelectual para ponerse un disfraz de murciélago con el fin de combatir el crimen."
         android:textColor="@color/primary"
