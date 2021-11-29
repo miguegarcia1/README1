@@ -1,4 +1,5 @@
 package com.migue.domain
 
-class Film {
-}
+  data class Film (
+      val title : String
+  )
