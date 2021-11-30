@@ -2,18 +2,25 @@ package com.migue.gar
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.migue.domain.Film
 import dagger.hilt.android.AndroidEntryPoint
+import usecase.GetFilm
 import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
      @Inject
      lateinit var log:MyLog
+     @Inject
+     lateinit var usecase: GetFilm
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
        log.log("se ha creado la aplicacion ")
+        val film = usecase.execute()
+        log.log("el titulo es : ${film.title}")
+
 
     }
 
