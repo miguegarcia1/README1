@@ -18,10 +18,6 @@ F
 app/proguard-rules.pro,9\e\9e08934d811afe28fbc77aaa3c0d747b94348db9
 b
 2app/src/test/java/com/migue/gar/ExampleUnitTest.kt,6\0\60844b2f4a1a68e35055ca9d3d55e817f4d091f5
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-_
-/app/src/main/java/com/migue/gar/MainActivity.kt,e\b\eb27972ada78a40bb5175205b1d2d9b2114f88d9
 G
 data/consumer-rules.pro,8\d\8d6a93142d516457e992dc51471f06dffd872e84
 @
@@ -32,14 +28,10 @@ Q
 !data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
 ?
 data/.gitignore,d\1\d1977b1bb1b3e249de790289a11d8f31156df269
-d
-4data/src/test/java/com/migue/data/ExampleUnitTest.kt,9\3\93f7ee47df5a40d37aff546408668782477e023a
 A
 domain/.gitignore,f\0\f0beecb3fabf37dd9436f6a769abf826f97eba92
 G
 data/proguard-rules.pro,0\f\0fbb6d729d2f1271751b1eee2d01927256945f01
-s
-Cdata/src/androidTest/java/com/migue/data/ExampleInstrumentedTest.kt,3\1\313a3f392232ed8556597acdf03a973ec0cc0e44
 o
 ?caches/7.0.2/scripts/5c0vu2mchspqouluhlag60qhm/cache.properties,b\3\b3e1bbf2a2ed734fa0cc4a2e0c5a1f8f1a739bb8
 p
@@ -502,3 +494,9 @@ p
 @caches/transforms-3/d0075c9c214427319d0605b592a0acd7/results.bin,1\c\1ca010c15e98982c56799b34ddb39f150847880e
 p
 @caches/transforms-3/4e961ef185018a1c7178ae14c7fd8d9a/results.bin,0\e\0e5ba9c68dc3bd47a8724291c5993b7e260ba9a9
+<
+build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+Q
+!daemon/7.0.2/daemon-12268.out.log,8\c\8c048250e6afec60402d4a0f95a47c927352819f
+C
+domain/build.gradle,a\3\a3021bb5ba623a461b5fdb89ae51923a4945c354
