@@ -1,8 +1,8 @@
 package com.migue.gar
 
 import android.os.Bundle
+import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.migue.domain.Film
 import com.migue.gar.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import usecase.GetFilm
@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
      @Inject
      lateinit var usecase: GetFilm
  private lateinit var binding: ActivityMainBinding
+ private val viewModel: MainViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -23,8 +24,7 @@ class MainActivity : AppCompatActivity() {
        log.log("se ha creado la aplicacion ")
         val film = usecase.execute()
         log.log("el titulo es : ${film.title}")
-
-
+        binding.title.text= it.title
     }
 
 
