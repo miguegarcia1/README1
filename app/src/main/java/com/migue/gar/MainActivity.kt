@@ -3,6 +3,7 @@ package com.migue.gar
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.migue.domain.Film
+import com.migue.gar.databinding.ActivityMainBinding
 import dagger.hilt.android.AndroidEntryPoint
 import usecase.GetFilm
 import javax.inject.Inject
@@ -13,16 +14,20 @@ class MainActivity : AppCompatActivity() {
      lateinit var log:MyLog
      @Inject
      lateinit var usecase: GetFilm
+ private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+         binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
        log.log("se ha creado la aplicacion ")
         val film = usecase.execute()
         log.log("el titulo es : ${film.title}")
 
 
     }
+
+
 
     override fun onStart() {
         super.onStart()

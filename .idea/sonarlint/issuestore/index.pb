@@ -20,12 +20,8 @@ b
 2app/src/test/java/com/migue/gar/ExampleUnitTest.kt,6\0\60844b2f4a1a68e35055ca9d3d55e817f4d091f5
 G
 data/consumer-rules.pro,8\d\8d6a93142d516457e992dc51471f06dffd872e84
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
-Q
-!data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
 ?
 data/.gitignore,d\1\d1977b1bb1b3e249de790289a11d8f31156df269
 A
@@ -424,12 +420,8 @@ p
 @caches/transforms-3/f80dd546f392267059dce15831168fe2/results.bin,7\a\7aa7979dca80e8a22a73ba103f7b4e5e8c772d12
 p
 @caches/transforms-3/8e01c4ac5dbe61030a469f39d9f61661/results.bin,e\b\eb60eddf9f8d4d165414a1464633dffa8d122288
-õ
-kcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml,a\a\aa9c237ff7803a11adca0e0809d6080b24091034
 p
 @caches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/results.bin,a\d\add8b1b03038a67a0d4f4701cdafac2925664508
-¬
-ëcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/META-INF/com/android/build/gradle/aar-metadata.properties,b\8\b87ff5be5dc91c2eee396da71872bf545e24bd0a
 p
 @caches/transforms-3/d9bc6cb41951406c55faaa39903319d4/results.bin,5\a\5a877e5c24a2e378c81cffbf18533ea27866483c
 ç
