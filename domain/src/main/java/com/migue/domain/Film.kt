@@ -4,5 +4,7 @@ package com.migue.domain
       val title : String,
       val url : String,
       val name : String,
+      val description:String,
+      val director : String?,
       val rating : Double
   )
