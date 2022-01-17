@@ -6,6 +6,7 @@ import retrofit2.http.Query
 
 
 const val API_KEY = "218ef5be18719a35551222f45aa936c5"
+const val BASE_URL= "https://api.themoviedb.org/3/"
 
 interface FilmApi{
     @GET("movie/{id}")
