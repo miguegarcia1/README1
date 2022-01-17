@@ -95,8 +95,6 @@ p
 p
 @caches/transforms-3/7e60c4f5bd4c2225f2fc06238bb93fd1/results.bin,b\9\b97101c72c7835b671323325c8a504a01ecc683d
 p
-@caches/transforms-3/46e3e4a9edc31322694c2c8e3aa0513e/results.bin,7\a\7aa942a4fd91b5b796c4fb50653d1634f9f2249f
-p
 @caches/transforms-3/b055e11ef02ff0794ee380baa9bc9a29/results.bin,a\6\a6b5c35c8e0afaed558dd787197982f6a79f4ee2
 p
 @caches/transforms-3/2c8ef61c833f8ad2b013139d16cdf645/results.bin,3\9\39acab753c13a90a0ccb0ec5cff11ca1480cf48f
@@ -120,8 +118,6 @@ p
 @caches/transforms-3/f821cc727af7d20422ad58d472b6f002/results.bin,e\4\e43b752d235b0dc5bb764d7c36b5a611eef7330c
 p
 @caches/transforms-3/fd6f335b9e885f152ce16542b37cadb1/results.bin,7\7\778b6d7ef5a8437d733d5e265a15c4dab3dc3aef
-p
-@caches/transforms-3/72e14a2fa647dafa782bb0e60f2249fc/results.bin,4\3\437379709b042f2a4b38c00dcffd456ccd1e026c
 p
 @caches/transforms-3/c5aa251e5a8f985777cb72c3da6a741c/results.bin,d\2\d2c4546f08bfd73f7f9444314c4530f7a3b9ba36
 p
@@ -184,8 +180,6 @@ o
 ?caches/7.0.2/scripts/1iouokcoy9y7pb9wyalsv79hq/cache.properties,c\b\cb609ec72cd1a0212b99b819b8b0c4bc80b43db9
 n
 >caches/7.0.2/scripts/80mb653a0no5znq245iaugt9/cache.properties,1\f\1f8c6bcaa932e71c62c6c73c18afa5b6f6fabdb1
-p
-@caches/transforms-3/7d020ed9a1702410b4a723cc572e2470/results.bin,0\f\0f988a47e184d4bea467631c1c70943fa996eb5b
 o
 ?caches/7.0.2/scripts/6r1s1uzijp6zlijnjjdeibrat/cache.properties,9\9\99163b4984624cd341e8a51e901243aadbfb8389
 o
@@ -206,8 +200,6 @@ p
 @caches/transforms-3/fd6590c5eae03d15c3c5cbe0399c40c2/results.bin,f\9\f916db6b9730c1e6d07bc219d5676ce2724cd5a6
 p
 @caches/transforms-3/794d603fe6cbba39e04538e2f90e0133/results.bin,b\4\b4d54f64167a2f98bdb568d83e18e7dcae1cfa3d
-p
-@caches/transforms-3/d322a8c69791f721371c328a550483e9/results.bin,1\9\19f3557173ee3d7b886ac4e1c896e1fe9f73ab80
 p
 @caches/transforms-3/92a74bf1d6e903a4b163b4fa92e3ae43/results.bin,e\d\ed76cee1f93ae635c706e56a04071f5b9524c4f9
 p
@@ -329,8 +321,6 @@ p
 p
 @caches/transforms-3/55fc4d6ffe77736c109f55ef2bb8c486/results.bin,3\7\377ff22d8f64ee580b76f42bb79e1842c6336770
 p
-@caches/transforms-3/d164890e3ebd5ed673cfeaf43150166a/results.bin,6\5\654a3c5b9e1884fc68beed78045a6b9e005b10be
-p
 @caches/transforms-3/0901de8741e681b4121b6e0f6ee003c0/results.bin,5\e\5e7c2a5fca07ec99fb449b8d8109ddace614b8fd
 p
 @caches/transforms-3/6c12944977cd4c69ad7012fc2abb2e12/results.bin,f\3\f3fd854e7e1eb96982c4d97bec28a2dd37f0f75b
@@ -376,8 +366,6 @@ p
 @caches/transforms-3/1d03aa1f117eb6574a012a17b6296efd/results.bin,a\d\ad5ecabff5a04b0d39ac9988917a6ce54f2d69fa
 p
 @caches/transforms-3/7a0e32b448d695dd32a448e9ef4fca14/results.bin,8\4\8432cfba3b820acaf6f3ae70870a4a639daed9e4
-p
-@caches/transforms-3/5c6e915a9bba6c0d7804e5d32b5728ca/results.bin,0\2\02a3bb90ce12ff448f858b84b1b5458f766e483e
 p
 @caches/transforms-3/670d593bb8b26ebf9fef979ea992b369/results.bin,d\8\d874e0a5d6a8da0e24999643ef75661f06f088a6
 p
@@ -492,3 +480,9 @@ Q
 !daemon/7.0.2/daemon-12268.out.log,8\c\8c048250e6afec60402d4a0f95a47c927352819f
 C
 domain/build.gradle,a\3\a3021bb5ba623a461b5fdb89ae51923a4945c354
+Â
+‘caches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/META-INF/com/android/build/gradle/aar-metadata.properties,b\8\b87ff5be5dc91c2eee396da71872bf545e24bd0a
+›
+kcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml,a\a\aa9c237ff7803a11adca0e0809d6080b24091034
+_
+/data/src/main/java/com/migue/data/DataModule.kt,7\f\7f8db96cd94f6f58df79b25f4e53d64097f6ea15
