@@ -480,10 +480,6 @@ C
 ‘caches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/META-INF/com/android/build/gradle/aar-metadata.properties,b\8\b87ff5be5dc91c2eee396da71872bf545e24bd0a
 ›
 kcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml,a\a\aa9c237ff7803a11adca0e0809d6080b24091034
-`
-0app/src/main/java/com/migue/gar/MainViewModel.kt,9\5\95f3f85f03edcd350088a088b0584baaab3c0709
-\
-,app/src/main/java/com/migue/gar/AppModule.kt,c\2\c295a001bf3ae007899649a9d097edc1bdc3982b
 Q
 !data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
 @

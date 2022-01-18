@@ -21,10 +21,11 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
          binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-       log.log("se ha creado la aplicacion ")
-        val film = usecase.execute()
-        log.log("el titulo es : ${film.title}")
-        binding.title.text= it.title
+       viewModel.loadFilm()
+        viewModel.film.observe(this){
+            binding.title.text= it.title
+        }
+
     }
 
 
