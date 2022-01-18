@@ -273,8 +273,6 @@ p
 p
 @caches/transforms-3/4c3d4ac399b4c7ff1ea9c37dc0ba3243/results.bin,b\5\b58f825aee93d031f54ff1df1243f230ed18c8e2
 p
-@caches/transforms-3/f006d3949399d819cea0385035f034c3/results.bin,8\1\81f4206e1815bab64d7879e8fe45ac54a3f4cd02
-p
 @caches/transforms-3/390b5239fc7d8487285e15499bf8ac99/results.bin,3\8\386bf7a6649a318d8e32b553c3ef352580940e42
 p
 @caches/transforms-3/af81294ba9052268f0d1b6bc6ea2b59c/results.bin,3\2\3213f1b17738db5a08fb3c7a3de850cd15ff2805
@@ -433,8 +431,6 @@ p
 p
 @caches/transforms-3/e55b810f487754ef14b7069ca21bb77f/results.bin,6\2\62c826f009a0a9b058c5baee4fc195daf1e2d396
 p
-@caches/transforms-3/f37f8cfb62d054b7c829b1f399bfbc8e/results.bin,2\3\23bc0f2b5ff8bf7fa9ea82dd1cbe55ba97698e3f
-p
 @caches/transforms-3/96751c76df363018435009a7e38a2358/results.bin,2\c\2c4f2e538021990094d21a8337e1e150796adeaa
 p
 @caches/transforms-3/74b82f57ad3fd7bd8cb46e661aa4c531/results.bin,d\1\d1009e43b8b7dd4a6a67402c015002e6b5ced486
@@ -484,5 +480,15 @@ C
 ‘caches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/META-INF/com/android/build/gradle/aar-metadata.properties,b\8\b87ff5be5dc91c2eee396da71872bf545e24bd0a
 ›
 kcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml,a\a\aa9c237ff7803a11adca0e0809d6080b24091034
-_
-/data/src/main/java/com/migue/data/DataModule.kt,7\f\7f8db96cd94f6f58df79b25f4e53d64097f6ea15
+`
+0app/src/main/java/com/migue/gar/MainViewModel.kt,9\5\95f3f85f03edcd350088a088b0584baaab3c0709
+\
+,app/src/main/java/com/migue/gar/AppModule.kt,c\2\c295a001bf3ae007899649a9d097edc1bdc3982b
+Q
+!data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
+@
+app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+A
+data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e

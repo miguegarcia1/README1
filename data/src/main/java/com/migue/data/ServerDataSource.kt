@@ -19,11 +19,11 @@ class ServerDataSource @Inject constructor() {
     private val api: FilmApi = retrofit.create(FilmApi:: class.java)
 
     suspend fun getFilm(id:Int, language: String): Film {
-        val FilmDto = api.getFilm(id, language)
+        val filmDto = api.getFilm(id, language)
         val creditsDto = api.getCredits(id)
         val director = creditsDto.cast.firstNotNullOfOrNull { it.role=="Directing" }?.name?:""
-        val image = "https://image.tmdb.org/t/p/w500~${FilmDto.imageUrl}"
+        val image = "https://image.tmdb.org/t/p/w500~${filmDto.imageUrl}"
 
-        return Film (FilmDto.title, FilmDto.imageUrl, director,FilmDto.description)
+        return Film (filmDto.title, filmDto.imageUrl, director,filmDto.description)
     }
 }
