@@ -482,9 +482,5 @@ C
 kcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml,a\a\aa9c237ff7803a11adca0e0809d6080b24091034
 Q
 !data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-A
-data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
 P
  app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
