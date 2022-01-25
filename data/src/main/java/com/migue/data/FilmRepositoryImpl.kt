@@ -15,8 +15,14 @@ serverDataSource.getFilm(id, language)
 
     }
 
-    override suspend fun getFilms(language: String): List<Film>? {
-        TODO("Not yet implemented")
+
+    override suspend fun getFilms(
+        language: String): List<Film>? {
+        return runCatching {
+            serverDataSource.getFilms(language)
+        }.getOrNull()
+
+
     }
 }
 
