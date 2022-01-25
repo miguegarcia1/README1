@@ -5,9 +5,10 @@ import com.google.gson.annotations.SerializedName
 
 data class FilmDto(
 
-    @SerializedName("id") val id : String,
+    @SerializedName("id") val id : Int,
     @SerializedName ("title")val title: String,
-    @SerializedName("description")val description: String,
-    @SerializedName("rating")val rating: String,
-    @SerializedName("imageUrl")val imageUrl: String
+    @SerializedName("name")val name: String,
+    @SerializedName("overview")val description: String,
+    @SerializedName("vote_average")val rating: Double,
+    @SerializedName("poster_path")val imageUrl: String
 )

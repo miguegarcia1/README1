@@ -1,0 +1,23 @@
+package List
+
+import android.os.Bundle
+import androidx.activity.viewModels
+import androidx.appcompat.app.AppCompatActivity
+import com.migue.gar.MainViewModel
+import com.migue.gar.databinding.FilmListBinding
+import dagger.hilt.android.AndroidEntryPoint
+
+@AndroidEntryPoint
+class FilmsListActivity : AppCompatActivity() {
+
+    private lateinit var binding: FilmListBinding
+    private val viewModel: MainViewModel by viewModels()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        binding = FilmListBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+
+        }
+
+    }
