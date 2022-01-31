@@ -9,6 +9,7 @@ import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
 class FilmsListActivity : AppCompatActivity() {
+    lateinit var adapter: FilmListAdapter
 
     private lateinit var binding: FilmListBinding
     private val viewModel: MainViewModel by viewModels()
@@ -17,7 +18,7 @@ class FilmsListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = FilmListBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+         binding.root.adapter  =adapter
         }
 
     }
