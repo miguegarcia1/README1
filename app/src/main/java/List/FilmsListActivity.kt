@@ -12,13 +12,19 @@ class FilmsListActivity : AppCompatActivity() {
     lateinit var adapter: FilmListAdapter
 
     private lateinit var binding: FilmListBinding
-    private val viewModel: MainViewModel by viewModels()
+    private val viewModel: FilmViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = FilmListBinding.inflate(layoutInflater)
         setContentView(binding.root)
          binding.root.adapter  =adapter
+         viewModel.loadFilms()
+        viewModel.films.observe(this
+        ){
+            adapter.submitList(it)
+        }
+
         }
 
     }
