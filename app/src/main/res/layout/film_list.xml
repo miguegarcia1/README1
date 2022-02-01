@@ -9,7 +9,7 @@
     app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
     app:spanCount="2"
     tools:listitem="@layout/film_overview"
-    tools:context=".MainActivity">
+    tools:context=".FilmActivity">
 
 
 

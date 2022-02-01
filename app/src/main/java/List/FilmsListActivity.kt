@@ -1,9 +1,10 @@
 package List
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import com.migue.gar.MainViewModel
+import com.migue.gar.FilmActivity
 import com.migue.gar.MyLog
 import com.migue.gar.databinding.FilmListBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -32,6 +33,8 @@ class FilmsListActivity : AppCompatActivity() {
            }
         adapter.callback={
             myLog.log(("click en la pelicula ${it.title}"))
+            val intent = Intent(this,FilmActivity::class.java)
+            startActivity(intent)
         }
         }
 

@@ -10,7 +10,7 @@ import usecase.GetFilm
 import javax.inject.Inject
 
 @AndroidEntryPoint
-class MainActivity : AppCompatActivity() {
+class FilmActivity : AppCompatActivity() {
      @Inject
      lateinit var log:MyLog
      @Inject
