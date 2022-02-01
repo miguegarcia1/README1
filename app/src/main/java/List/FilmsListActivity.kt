@@ -4,12 +4,15 @@ import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.migue.gar.MainViewModel
+import com.migue.gar.MyLog
 import com.migue.gar.databinding.FilmListBinding
 import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
 @AndroidEntryPoint
 class FilmsListActivity : AppCompatActivity() {
     lateinit var adapter: FilmListAdapter
+    @Inject lateinit var myLog: MyLog
 
     private lateinit var binding: FilmListBinding
     private val viewModel: FilmViewModel by viewModels()
@@ -24,7 +27,12 @@ class FilmsListActivity : AppCompatActivity() {
         ){
             adapter.submitList(it)
         }
+           adapter.callback={
 
+           }
+        adapter.callback={
+            myLog.log(("click en la pelicula ${it.title}"))
+        }
         }
 
     }
