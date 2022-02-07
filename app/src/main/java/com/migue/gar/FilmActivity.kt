@@ -1,6 +1,9 @@
 package com.migue.gar
 
+import android.content.Intent
+import android.net.Uri
 import android.os.Bundle
+import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
@@ -34,11 +37,25 @@ class FilmActivity : AppCompatActivity() {
             binding.textView5.text = it.director
             Glide.with(this).load(it.imageUrl).into(binding.imageView)
 
+            if(it.VideoId == null){
+                binding.button2.visibility = View.GONE
+            }else{
+                binding.button2.visibility = View.VISIBLE
+                binding.button.setOnClickListener { _ ->
+                    launchYouTube(it.VideoId)
+                }
+            }
+
 
 
         }
-
+      actionBar?.setDisplayHomeAsUpEnabled(true)
     }
+    private fun launchYouTube(id:String){
+        val intent = Intent(Intent.ACTION_VIEW, Uri.parse("http://.youtube.com/watch?v==$id"))
+        startActivity(intent)
+    }
+
 
 
 
