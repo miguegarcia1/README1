@@ -27,6 +27,12 @@ interface FilmApi{
                 (@Query("language") language:String,
                  @Query("apy_key") apiKey:String = API_KEY ): FilmListResultDto
 
+    @GET("movie/{id}/videos")
+
+    suspend fun getVideos(@Path("id") filmId: Int,
+                 @Query("language") language:String,
+                 @Query("apy_key") apiKey:String = API_KEY ): VideoResultDto
+
 }
 
 

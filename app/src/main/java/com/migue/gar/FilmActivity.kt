@@ -11,6 +11,9 @@ import javax.inject.Inject
 
 @AndroidEntryPoint
 class FilmActivity : AppCompatActivity() {
+    companion object{
+        const val FILM_ID = "ID"
+    }
      @Inject
      lateinit var log:MyLog
      @Inject
@@ -22,13 +25,17 @@ class FilmActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
          binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-       viewModel.loadFilm(512195)
+        val id =  intent?.extras?.getInt(FILM_ID)?:512195
+       viewModel.loadFilm(id)
         viewModel.film.observe(this){
             binding.ratingBar2.rating = it.rating.toFloat()
             binding.textView2.text= it.title
             binding.textView4.text = it.description
             binding.textView5.text = it.director
             Glide.with(this).load(it.imageUrl).into(binding.imageView)
+
+
+
         }
 
     }

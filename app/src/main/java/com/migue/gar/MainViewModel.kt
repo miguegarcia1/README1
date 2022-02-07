@@ -21,7 +21,7 @@ class MainViewModel @Inject constructor(
            val language = Locale.getDefault().language
 
            job= CoroutineScope (Dispatchers.IO).launch{
-               val loadedFilm= useCase.execute(600,language
+               val loadedFilm= useCase.execute(id,language
                )
                withContext(Dispatchers.Main){
                    loadedFilm?.let {
@@ -30,7 +30,9 @@ class MainViewModel @Inject constructor(
                            it.rating,
                            it.description,
                            it.url,
-                           it.director ?: ""
+                           it.director ?: "",
+                           it.videoId
+
                        )
 
 

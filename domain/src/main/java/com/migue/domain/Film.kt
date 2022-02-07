@@ -7,5 +7,6 @@ package com.migue.domain
       val name: String,
       val description: String,
       val director: String?,
-      val rating:Double
+      val rating:Double,
+      val videoId:String?
   )
