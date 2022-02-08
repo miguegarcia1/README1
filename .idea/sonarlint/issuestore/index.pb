@@ -346,8 +346,6 @@ X
 (app/src/main/java/com/migue/gar/MyLog.kt,2\b\2b09d381e5d81d3194d6015056bfa7b18d7e2fac
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-A
-data/build.gradle,7\2\72c2781d3d9ac8b82a3543f0fba5c796b2975232
 \
 ,app/src/main/java/com/migue/gar/AppModule.kt,c\2\c295a001bf3ae007899649a9d097edc1bdc3982b
 X
