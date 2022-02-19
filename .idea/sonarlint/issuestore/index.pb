@@ -354,3 +354,23 @@ a
 1domain/src/main/java/repository/FilmRepository.kt,6\d\6de48ad466eddaccad95476c6d8826562c023029
 \
 ,app/src/main/java/com/migue/gar/MiguelApp.kt,b\d\bdebc80c2f589d1a80f6b2ec9d585e49107d1975
+c
+3data/src/main/java/com/migue/data/VideoResultDto.kt,4\4\445e84479691f2827ae0ab5728106c69bb4ab28c
+_
+/app/src/main/java/com/migue/gar/FilmDataView.kt,e\b\eb7f67b710adce12f2d46daf8aaf47474a29fbd8
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
+\
+,data/src/main/java/com/migue/data/CastDto.kt,3\4\3413da5388104b27fdfe238b4fb21c2ad45f3250
+f
+6data/src/main/java/com/migue/data/FilmListResultDto.kt,6\1\61f39f189d3a409c4c99f811e463c4f6ee1b763a
+W
+'app/src/main/java/List/FilmViewModel.kt,2\2\22de4157f686dc292cb5e9bc6e8a1f9283efedc7
+[
++app/src/main/java/List/FilmsListActivity.kt,9\1\910e985eac7c65c899494d3ffcb7c53ff63231ee
+_
+/app/src/main/java/com/migue/gar/FilmActivity.kt,0\e\0ebd34e2898913116cda217870c22d0aa5557ace
+`
+0app/src/main/java/com/migue/gar/MainViewModel.kt,9\5\95f3f85f03edcd350088a088b0584baaab3c0709
+\
+,data/src/main/java/com/migue/data/FilmDto.kt,3\c\3c54ff6cacf26f85a3f14550c99174c66391b6a2

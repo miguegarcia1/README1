@@ -1,30 +1,48 @@
 package com.migue.data
 
 import com.migue.domain.Film
-import org.intellij.lang.annotations.Language
+import database.DatabaseDatasource
 import repository.FilmRepository
+
 import javax.inject.Inject
 
 class FilmRepositoryImpl @Inject constructor(
-    private val serverDataSource: ServerDataSource
+    private val serverDataSource: ServerDataSource ,
+    private val databaseDatasource:DatabaseDatasource
 ): FilmRepository {
     override suspend fun getFilm(id: Int, language: String): Film? {
-return runCatching {
-serverDataSource.getFilm(id, language)
-}.getOrNull()
-
+        return try {
+            val filmFromServer = serverDataSource.getFilm(id, language)
+            databaseDatasource.clearFilms()
+            databaseDatasource.updateFilms(listOf(filmFromServer))
+            filmFromServer
+        } catch (exception: Exception) {
+            databaseDatasource.getFilm(id)
+        }
     }
 
 
     override suspend fun getFilms(
-        language: String): List<Film>? {
-        return runCatching {
-            serverDataSource.getFilms(language)
-        }.getOrNull()
-
+        language: String
+    ): List<Film>? {
+    return try {
+        val filmsFromServer = serverDataSource.getFilms(language)
+        databaseDatasource.updateFilms(filmsFromServer)
+        filmsFromServer
+    } catch (exception :Exception){
+        databaseDatasource.getFilms()
+    }
 
     }
+
+
+
+
 }
+
+
+
+
 
 
 
