@@ -340,14 +340,8 @@ C
 ‘caches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/META-INF/com/android/build/gradle/aar-metadata.properties,b\8\b87ff5be5dc91c2eee396da71872bf545e24bd0a
 ›
 kcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml,a\a\aa9c237ff7803a11adca0e0809d6080b24091034
-Q
-!data/src/main/AndroidManifest.xml,f\a\fa20ad08e770fe0392ec3df5be8c6bde6c35d607
 X
 (app/src/main/java/com/migue/gar/MyLog.kt,2\b\2b09d381e5d81d3194d6015056bfa7b18d7e2fac
-@
-app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
-\
-,app/src/main/java/com/migue/gar/AppModule.kt,c\2\c295a001bf3ae007899649a9d097edc1bdc3982b
 X
 (domain/src/main/java/usecase/GetFilms.kt,8\5\850f0010d4123143768d7677fb628cfaf3166fb7
 a
@@ -358,8 +352,6 @@ c
 3data/src/main/java/com/migue/data/VideoResultDto.kt,4\4\445e84479691f2827ae0ab5728106c69bb4ab28c
 _
 /app/src/main/java/com/migue/gar/FilmDataView.kt,e\b\eb7f67b710adce12f2d46daf8aaf47474a29fbd8
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
 \
 ,data/src/main/java/com/migue/data/CastDto.kt,3\4\3413da5388104b27fdfe238b4fb21c2ad45f3250
 f
@@ -368,8 +360,6 @@ W
 'app/src/main/java/List/FilmViewModel.kt,2\2\22de4157f686dc292cb5e9bc6e8a1f9283efedc7
 [
 +app/src/main/java/List/FilmsListActivity.kt,9\1\910e985eac7c65c899494d3ffcb7c53ff63231ee
-_
-/app/src/main/java/com/migue/gar/FilmActivity.kt,0\e\0ebd34e2898913116cda217870c22d0aa5557ace
 `
 0app/src/main/java/com/migue/gar/MainViewModel.kt,9\5\95f3f85f03edcd350088a088b0584baaab3c0709
 \
