@@ -356,3 +356,5 @@ f
 6data/src/main/java/com/migue/data/FilmListResultDto.kt,6\1\61f39f189d3a409c4c99f811e463c4f6ee1b763a
 \
 ,data/src/main/java/com/migue/data/FilmDto.kt,3\c\3c54ff6cacf26f85a3f14550c99174c66391b6a2
+_
+/app/src/main/java/com/migue/gar/FilmDataView.kt,e\b\eb7f67b710adce12f2d46daf8aaf47474a29fbd8
