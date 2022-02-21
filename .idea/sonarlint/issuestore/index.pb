@@ -341,13 +341,9 @@ C
 ›
 kcaches/transforms-3/945900582a9c572ea88d2e78e7db6b1d/transformed/jetified-tracing-1.0.0/AndroidManifest.xml,a\a\aa9c237ff7803a11adca0e0809d6080b24091034
 X
-(app/src/main/java/com/migue/gar/MyLog.kt,2\b\2b09d381e5d81d3194d6015056bfa7b18d7e2fac
-X
 (domain/src/main/java/usecase/GetFilms.kt,8\5\850f0010d4123143768d7677fb628cfaf3166fb7
 a
 1domain/src/main/java/repository/FilmRepository.kt,6\d\6de48ad466eddaccad95476c6d8826562c023029
-\
-,app/src/main/java/com/migue/gar/MiguelApp.kt,b\d\bdebc80c2f589d1a80f6b2ec9d585e49107d1975
 c
 3data/src/main/java/com/migue/data/VideoResultDto.kt,4\4\445e84479691f2827ae0ab5728106c69bb4ab28c
 \
@@ -356,5 +352,5 @@ f
 6data/src/main/java/com/migue/data/FilmListResultDto.kt,6\1\61f39f189d3a409c4c99f811e463c4f6ee1b763a
 \
 ,data/src/main/java/com/migue/data/FilmDto.kt,3\c\3c54ff6cacf26f85a3f14550c99174c66391b6a2
-_
-/app/src/main/java/com/migue/gar/FilmDataView.kt,e\b\eb7f67b710adce12f2d46daf8aaf47474a29fbd8
+P
+ app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
